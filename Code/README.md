@@ -11,11 +11,11 @@ Stages of the Project:
 3. Requirements:
 
 
-   a. Good Selection of LLMs
+   a. Good Selection of LLMs - for the sake of this prototype GPT 3.5 Turbo is being used OpenAI.
 
 
 
-   b. Good Prompting for LLMs (Reading the Prompt Engineering Paper(s) for further insight).
+   b. Good Prompting for LLMs (Reading the Prompt Engineering Paper(s) for further insight) - this is under development at the moment.
    
 5. Ask the respective LLM to generate only loop invariants that are going to be placed before each loop.
 6. Repeat for the next loop.
