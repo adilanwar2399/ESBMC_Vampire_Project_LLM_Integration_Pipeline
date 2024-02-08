@@ -29,3 +29,4 @@ References:
 2. https://stackoverflow.com/questions/31126596/saving-response-from-requests-to-file
 3. http://www.java2s.com/Code/Python/File/AddingLineNumberstoaPythonScript.htm
 4. https://chat.openai.com/
+5. https://stackoverflow.com/questions/48797580/how-to-add-line-numbers-in-a-list
