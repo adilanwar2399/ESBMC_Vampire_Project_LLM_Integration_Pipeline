@@ -11,7 +11,7 @@ Stages of the Project:
 3. Requirements:
 
 
-   a. Good Selection of LLMs - for the sake of this prototype GPT 3.5 Turbo is being used OpenAI.
+   a. Good Selection of LLMs - for the sake of this prototype GPT 3.5 Turbo is being used (OpenAI).
 
 
 
