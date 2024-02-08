@@ -21,3 +21,10 @@ Stages of the Project:
 6. Repeat for the next loop.
 7. Once done, call ESBMC-Vampire.
 
+---------------------------------------------------------------------------------------------------------------------------------------
+
+References: 
+
+1. https://platform.openai.com/docs/api-reference
+2. https://stackoverflow.com/questions/31126596/saving-response-from-requests-to-file
+3. 
