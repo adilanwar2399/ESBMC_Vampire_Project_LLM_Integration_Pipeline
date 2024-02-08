@@ -27,4 +27,5 @@ References:
 
 1. https://platform.openai.com/docs/api-reference
 2. https://stackoverflow.com/questions/31126596/saving-response-from-requests-to-file
-3. 
+3. http://www.java2s.com/Code/Python/File/AddingLineNumberstoaPythonScript.htm
+4. https://chat.openai.com/
