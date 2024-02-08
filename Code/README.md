@@ -6,7 +6,7 @@ Prompt_Eng_Pipeline.py is the Latest one.
 
 Stages of the Project: 
 
-1. Detect For loops iteratively - parse the goto language and the parse will replace the loop with the loop invariant like LLVM.
+1. Detect For loops iteratively.
 2. Ask the LLM to generate an invariant for each loop. 
 3. Requirements:
 
