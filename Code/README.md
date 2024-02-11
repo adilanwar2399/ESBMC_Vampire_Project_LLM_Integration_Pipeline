@@ -22,6 +22,31 @@ Stages of the Project:
 7. Once done, call ESBMC-Vampire.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+Prompt Engineering: Chain of Thought Approach.
+
+Give a Solved Example Benchmark to the LLM 
+
+{
+ C code with loop ...
+} 
+
+Correct Loop invariant is e.g. x>y
+
+Explain in sequential steps as to why the invariant x>y is successful. 
+
+(Note: Here you can ask the LLM to generate a sequential break down in order to understand and break down in steps why the invariant is correct - as the way it will break down and tell the user how and why this invariant is correct will work in the same way by feeding it that same information in that same style - as a prompt.)
+
+Then utilise the Benchmark that you need to generate the correct invariant(s) for:
+
+{
+   C code with loop...
+}
+
+Then specify the conditions of the output and the form that the output will appear in plus any constraints or extra contextual information may help as well.
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
 
 References: 
 
