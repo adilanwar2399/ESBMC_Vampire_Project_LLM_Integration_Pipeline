@@ -56,3 +56,5 @@ References:
 4. https://chat.openai.com/
 5. https://stackoverflow.com/questions/48797580/how-to-add-line-numbers-in-a-list
 6. https://docs.python.org/3/c-api/index.html
+7. https://www.geeksforgeeks.org/python-os-path-join-method/
+8. https://stackoverflow.com/questions/10377998/how-can-i-iterate-over-files-in-a-given-directory
