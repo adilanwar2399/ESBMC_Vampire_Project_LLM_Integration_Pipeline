@@ -59,3 +59,5 @@ References:
 6. https://docs.python.org/3/c-api/index.html
 7. https://www.geeksforgeeks.org/python-os-path-join-method/
 8. https://stackoverflow.com/questions/10377998/how-can-i-iterate-over-files-in-a-given-directory
+9. https://mathai2023.github.io/papers/28.pdf
+10. https://arxiv.org/pdf/2302.11382.pdf
