@@ -1,7 +1,8 @@
 Here the generic pipeline code for the LLM Integration of this Project will be. 
 
 
-Pipeline_1.py is the Latest one.
+Pipeline_1.py is the Latest basic one.
+Pipeline_2.py is the Latest Iterative File one.
 
 
 Stages of the Project: 
