@@ -1,7 +1,7 @@
 Here the generic pipeline code for the LLM Integration of this Project will be. 
 
 
-Pipeline_1.py is the Latest basic one.
+Pipeline_1.py is the Latest Basic one.
 
 
 Pipeline_2.py is the Latest Iterative one.
@@ -42,7 +42,7 @@ Explain in sequential steps as to why the invariant x>y is successful.
 Then utilise the Benchmark that you need to generate the correct invariant(s) for:
 
 {
-   C code with loop...
+   C code with loop ...
 }
 
 Then specify the conditions of the output and the form that the output will appear in plus any constraints or extra contextual information may help as well.
