@@ -11,14 +11,16 @@ import time
 key_for_the_API = 'Your API Key'
 openai.api_key = key_for_the_API
 
-
+# Path to the C files that will be experimented with.
 c_benchmarks = '<PATH to Benchmarks>'
 
+# Check to see i nthe directory which files are C files.
 for name_of_the_c_benchmark_file in os.listdir(c_benchmarks):
     if name_of_the_c_benchmark_file.endswith('.c'):
+        # Number of generated invariant(s) iterations from the LLM (GPT-3 Turbo Instruct).
         invariant_generation_iteration = 1; 
         while True:
-
+            # Check the specific file name in the specific directory and read it.
             with open(os.path.join(c_benchmarks, name_of_the_c_benchmark_file), 'r') as benchmark_read:
                 c_benchmark = benchmark_read.read()
 
