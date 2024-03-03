@@ -10,6 +10,10 @@ Pipeline_2.py is the Latest Iterative one - withe the LLM Prompt responsible for
 Pipeline_3.py is the is the Latest Iterative one - with the LLM Prompts dealing with Multiple Invariants or (Unknown Number of Invariants).
 
 
+Pipeline_4.py is the is the Latest Iterative and Universal one - with the LLM Prompts dealing with Multiple Invariants or (Unknown Number of Invariants), Single Invariant, Absolute Invariant and Quantifiable Invariants.
+
+Prompt_Examples.py is the file containing four types of benchmark examples and how they are solved in a step by step explanation manner and approach.
+
 Stages of the Project: 
 
 1. Detect For loops iteratively.
