@@ -66,3 +66,4 @@ References:
 8. https://stackoverflow.com/questions/10377998/how-can-i-iterate-over-files-in-a-given-directory
 9. https://mathai2023.github.io/papers/28.pdf
 10. https://arxiv.org/pdf/2302.11382.pdf
+11. https://stackoverflow.com/questions/19389490/how-do-pythons-any-and-all-functions-work
