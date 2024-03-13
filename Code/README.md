@@ -16,6 +16,8 @@ Constrained_Universal_Pipeline.py is the Latest Iterative and Universal one but 
 
 Prompt_Examples.py is the file containing four types of benchmark examples and how they are solved in a step by step explanation manner and approach.
 
+Constrained_Prompts.py is the file containing 3 types of Prompt Examples that will used when experimenting with the Code2Inv Benchmarks - contains Example + Output in the Chain of Thought Manner.
+
 Stages of the Project: 
 
 1. Detect For loops iteratively.
