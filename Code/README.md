@@ -12,6 +12,8 @@ Pipeline_3.py is the is the Latest Iterative one - with the LLM Prompts dealing 
 
 Pipeline_4.py is the is the Latest Iterative and Universal one - with the LLM Prompts dealing with Multiple Invariants or (Unknown Number of Invariants), Single Invariant, Absolute Invariant and Quantifiable Invariants.
 
+Constrained_Universal_Pipeline.py is the Latest Iterative and Universal one but is Constrained by the Limited number of iterations per benchmark and without the removal of Parsing Errors. 
+
 Prompt_Examples.py is the file containing four types of benchmark examples and how they are solved in a step by step explanation manner and approach.
 
 Stages of the Project: 
@@ -71,3 +73,4 @@ References:
 9. https://mathai2023.github.io/papers/28.pdf
 10. https://arxiv.org/pdf/2302.11382.pdf
 11. https://stackoverflow.com/questions/19389490/how-do-pythons-any-and-all-functions-work
+12. https://www.w3schools.com/python/ref_func_map.asp
