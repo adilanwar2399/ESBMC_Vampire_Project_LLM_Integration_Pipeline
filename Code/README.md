@@ -74,3 +74,4 @@ References:
 10. https://arxiv.org/pdf/2302.11382.pdf
 11. https://stackoverflow.com/questions/19389490/how-do-pythons-any-and-all-functions-work
 12. https://www.w3schools.com/python/ref_func_map.asp
+13. https://stackoverflow.com/questions/65333658/how-to-join-values-of-map-in-python
