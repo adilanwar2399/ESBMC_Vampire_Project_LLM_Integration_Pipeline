@@ -87,3 +87,4 @@ References:
 12. https://www.w3schools.com/python/ref_func_map.asp
 13. https://stackoverflow.com/questions/65333658/how-to-join-values-of-map-in-python
 14. https://docs.python.org/3/library/re.html
+15. https://stackoverflow.com/questions/64173161/python-regular-expression-substitution-function-using-lambda-in-the-replacement
