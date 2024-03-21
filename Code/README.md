@@ -12,11 +12,18 @@ Pipeline_3.py is the is the Latest Iterative one - with the LLM Prompts dealing 
 
 Pipeline_4.py is the is the Latest Iterative and Universal one - with the LLM Prompts dealing with Multiple Invariants or (Unknown Number of Invariants), Single Invariant, Absolute Invariant and Quantifiable Invariants.
 
+
 Constrained_Universal_Pipeline.py is the Latest Iterative and Universal one but is Constrained by the Limited number of iterations per benchmark and without the removal of Parsing Errors. 
+
+
+Universal_Pipeline_Double_Prompt_Regex.py is the Latest Iterative and Universal one that uses Regex alongside both Prompt types (constrained and unconstrained) with 1200s time limit per benchmark and 60 iterations limit per benchmark (30 for each benchmark). The Regex addition allows the Parsing errors to be removed/reduced and it increases the number of useful iterations per benchmark.
+
 
 Prompt_Examples.py is the file containing four types of benchmark examples and how they are solved in a step by step explanation manner and approach.
 
-Constrained_Prompts.py is the file containing 3 types of Prompt Examples that will used when experimenting with the Code2Inv Benchmarks - contains Example + Output in the Chain of Thought Manner.
+
+Constrained_Prompts.py (in the code it is used as Prompt_Examples_2.py) is the file containing 3 types of Prompt Examples that will used when experimenting with the Code2Inv Benchmarks - contains Example + Output in the Chain of Thought Manner.
+
 
 Stages of the Project: 
 
@@ -46,9 +53,11 @@ Give a Solved Example Benchmark to the LLM
 
 Correct Loop invariant is e.g. x>y
 
+(Important Note: The following Step-by-step explanation is not used for Constrained Prompts; this is only for Unconstrained Prompts)
+
 Explain in sequential steps as to why the invariant x>y is successful. 
 
-(Note: Here you can ask the LLM to generate a sequential break down in order to understand and break down in steps why the invariant is correct - as the way it will break down and tell the user how and why this invariant is correct will work in the same way by feeding it that same information in that same style - as a prompt.)
+(Note: Here you can ask the LLM to generate a sequential break down in order to understand and break down in steps why the invariant is correct - as the way it will break down and tell the user how and why this invariant is correct will work in the same way by feeding it that same information in that same style - as a prompt.) 
 
 Then utilise the Benchmark that you need to generate the correct invariant(s) for:
 
