@@ -1,4 +1,4 @@
-Here the generic pipeline code for the LLM Integration of this Project will be. 
+Here the generic pipeline code for the LLM Integration of this Project. 
 
 
 Pipeline_1.py is the Latest Basic one.
