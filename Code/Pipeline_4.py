@@ -314,7 +314,7 @@ for name_of_the_c_benchmark_file in os.listdir(c_benchmarks):
     # total_duration_spent_on_benchmarks = 0  
 
 # Here the calculation of how to obtain the average number of iterations it takes to solve the benchmarks are done.
-c_benchmark_iteration_average_number = total_iterations_for_benchmarks/len(c_benchmarks_successful) if c_benchmarks_successful else 0 
+c_benchmark_iteration_average_number = total_iterations_for_benchmarks/(len(c_benchmarks_successful) + len(c_benchmarks_unsuccessful))
 
 # Here the calculation of how to obtain the average duration it takes to solve the benchmarks are done.
 c_benchmark_iteration_average_duration = total_duration_spent_on_benchmarks/total_iterations_for_benchmarks if total_iterations_for_benchmarks > 0 else 0 
@@ -331,17 +331,6 @@ print("Average time per iteration in Seconds: " + str(c_benchmark_iteration_aver
 print("Average number of iterations for Solved Benchmark Files: " + str(c_benchmark_iteration_average_number) + " iterations.") 
 
 
-# Below are the respective metrics that will be outputted one the whole set of the Benchmarks are completed.
-# Note these ones are tailored for SV-COMP Benchmarks.
-
-# print("Number of the SV-COMP Benchmarks Solved: " + str(len(c_benchmarks_successful)))
-# print("The names of the Benchmark Files that were Solved: ")
-# print('\n'.join(c_benchmarks_successful))
-# print("Number of the SV-COMP Benchmarks that were not Solved: " + str(len(c_benchmarks_unsuccessful)))
-# print("The names of the Benchmark Files that were not Solved: ")
-# print('\n'.join(c_benchmarks_unsuccessful))
-# print("Average time per iteration in Seconds: " + str(c_benchmark_iteration_average_duration) + " s") 
-# print("Average number of iterations for Solved Benchmark Files: " + str(c_benchmark_iteration_average_number) + " iterations.") 
 
             
 
