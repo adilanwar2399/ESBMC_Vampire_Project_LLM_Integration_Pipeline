@@ -7,3 +7,13 @@ Either here:
 https://github.com/ibnyusuf/esbmc-vampire-project
 
 Or the Forked Version on this account.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Pre-requisites: 
+
+1. Install ESBMC and make sure that it is working on the chosen machine properly - preferably on a Linux Operating System (OS), (Other OS may work but setting up may be a bit more challenging).
+   
+2. Install Vampire Automated Theorem Prover and ensure that runs properly on the system.
+
+3. Ensure that you have an OpenAI API Key - that will allow you run the Script with the GPT Model (LLM). 
