@@ -39,8 +39,9 @@ Stages of the Project:
    b. Good Prompting for LLMs (Reading the Prompt Engineering Paper(s) for further insight) - this is under development at the moment.
    
 5. Ask the respective LLM to generate only loop invariants that are going to be placed before each loop.
-6. Repeat for the next loop.
-7. Once done, call ESBMC-Vampire.
+6. Check whether the generated loop invariant can be parsed (implementation is done via using regular expressions); if the generated responses match the pattern defined through the regular expression then the rest of the pipeline will execute - otherwise it will regenerate and re-match until the match is successful) - this reduces the parsing errors and increases the number of useful iterations per benchmark.
+7. Repeat for the next loop (multiple loops check is under development so current pipeline skips this step).
+8. Once done, call ESBMC-Vampire.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 Prompt Engineering: Chain of Thought Approach.
