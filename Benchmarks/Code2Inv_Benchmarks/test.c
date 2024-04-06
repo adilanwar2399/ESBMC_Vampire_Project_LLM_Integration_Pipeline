@@ -19,7 +19,7 @@ int abs(int x){
 
 int main()
 {
-  int n = __VERIFIER_nondet_int();
+  unsigned int n = __VERIFIER_nondet_int();
   __ESBMC_assume(n >= 0);
   int x=n, y=0;
   while(x>0)
