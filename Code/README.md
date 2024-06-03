@@ -4,7 +4,7 @@ Here the generic pipeline code for the LLM Integration of this Project.
 Pipeline_1.py is the Latest Basic one.
 
 
-Pipeline_2.py is the Latest Iterative one - withe the LLM Prompt responsible for Single Invariant Benchmarks.
+Pipeline_2.py is the Latest Iterative one - with the LLM Prompt responsible for Single Invariant Benchmarks.
 
 
 Pipeline_3.py is the is the Latest Iterative one - with the LLM Prompts dealing with Multiple Invariants or (Unknown Number of Invariants).
